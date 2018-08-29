@@ -1,0 +1,27 @@
+# -*- mode:org -*-
+#+TITLE: sleep-target
+#+STARTUP: indent
+#+OPTIONS: toc:nil
+
+Estimate your bedtime given a specification of a list of tasks with know completion times
+
+** Usage
+
+*** Run the application locally
+
+=lein ring server=
+
+*** Packaging and running as standalone jar
+
+#+BEGIN_EXAMPLE
+    lein do clean, ring uberjar
+    java -jar target/server.jar
+#+END_EXAMPLE
+
+*** Packaging as war
+
+=lein ring uberwar=
+
+** License
+
+Copyright © FIXME
