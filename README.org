@@ -3,7 +3,7 @@
 #+STARTUP: indent
 #+OPTIONS: toc:nil
 
-Estimate your bedtime given a specification of a list of tasks with know completion times
+Estimate your bedtime given a specification of a list of tasks with known completion times
 
 ** Usage
 
